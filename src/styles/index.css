@@ -1,0 +1,86 @@
+.toDoList {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.enterTask{
+  display: flex;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-right: 10%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #45a049;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+.cleanButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+}
+
+.cleanButton:hover {
+  background-color: #d32f2f;
+}
